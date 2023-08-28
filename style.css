@@ -1,8 +1,4 @@
-@import "https://unpkg.com/open-props" layer(design.system);
-@import "https://unpkg.com/open-props/normalize.min.css" layer(demo.support);
-@import "https://unpkg.com/open-props/buttons.min.css" layer(demo.support);
-@import "https://unpkg.com/open-props/theme.light.switch.min.css" layer(demo.theme);
-@import "https://unpkg.com/open-props/theme.dark.switch.min.css" layer(demo.theme);
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {

@@ -242,26 +242,3 @@ body {
     flex-direction: column;
   }
 }
-
-@layer demo {
-  button {
-    --_border: none;
-    --_highlight: none;
-    transition: 
-      transform 1s var(--ease-spring-5),
-      box-shadow 1s var(--ease-spring-5),
-      outline-offset 145ms var(--ease-4);
-    box-shadow: var(--shadow-4);
-    box-shadow: var(--shadow-4), 0 0 45px 2px hsla(160,70%,80%,.45), 0 0 15px 5px hsla(160,90%,60%,.5), 0 0 8px 1px hsla(200,100%,80%,1), 0 0 3px 1px hsla(200,100%,80%,1), 0 0 1px 1px hsla(160,90%,98%,1);
-    
-/*     &:hover {
-      --_bg: var(--surface-2);
-    } */
-    
-    &:active {
-      transform: scale(.9);
-      box-shadow: var(--shadow-1);
-      box-shadow: var(--shadow-1), 0 0 1px 1px hsla(180,100%,80%,.5), 0 0 8px 0px hsla(180,100%,80%,.33),0 0 1px 1px hsla(160,90%,98%,.8);
-    }
-  }
-}
